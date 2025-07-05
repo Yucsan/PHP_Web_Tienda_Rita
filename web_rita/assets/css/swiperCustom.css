@@ -1,0 +1,92 @@
+    .swiper-container {
+      width: 100%;
+      height: 530px;
+      position: relative;
+      top: -74px;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+
+    /*=============SLIDER===============*/
+
+
+.textoSlide1{
+  
+  height: 425px;
+  background: none;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fotoSlide1{
+  position: relative;
+  height: 325px;
+  background: none;
+  width: 50%;
+
+}
+
+
+.tituloSlide1{
+  width: 100%; 
+  text-align: right; 
+  color: snow;
+  font-family: 'indie';
+  font-weight: 700;
+  display:flex;
+  flex-direction:column;
+  
+  
+}
+
+.btnSlide1{
+  width: 130px;
+  margin-left: auto;
+  border-radius: 50px;
+  background: var(--morado);
+  color: white;
+  border: none;
+  font-family: 'muli';
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btnSlide1:hover{
+  color: orange;
+}
+
+.a1{
+  color:white;
+  background: rgba(200,220,220,0.3);
+    display: flex;
+    justify-content: center;
+}
+
+
+.a2{
+  color:white;
+  background: url(../rsc/img/textureSlider1.jpg)no-repeat center center;
+  background-size: cover;
+}

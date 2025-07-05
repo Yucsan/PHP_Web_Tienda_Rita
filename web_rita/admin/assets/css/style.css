@@ -1,0 +1,499 @@
+
+/* CSS PARA MI DASHBOARD 2021 FERNANDO CHANG*/
+
+/*
+==========================
+FUENTES PERSONALIZADAS
+==========================
+*/
+@font-face{
+	font-family: 'dancing';
+	src: url('../rsc/fonts/DancingScript-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'muli';
+  src: url('../rsc/fonts/Muli-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'indie';
+  src: url('../rsc/fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'warm';
+  src: url('../rsc/fonts/Warmesty.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'breath';
+  src: url(../rsc/fonts/Breathing.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'patrick';
+  src: url(../rsc/fonts/PatrickHand-Regular.ttf) format('truetype');
+}
+
+
+
+:root{
+--morado: #793DA3;
+--darkm: #3D1C55;
+--swiper-navigation-color :#793DA3;
+--swiper-pagination-color :#793DA3;
+}
+
+*{ margin:0px; padding: 0px; box-sizing: border-box;}
+
+::selection { background: goldenrod; color:white;}
+
+
+/*BARRA DE NAVEGACION*/
+
+.avatar{
+  position: absolute;
+  right: 30px;
+}
+.avSession{
+  left: -80px;
+}
+.datos1{
+  display: flex; justify-content: space-around; background: ghostwhite; margin-top: 15px;
+}
+
+.bloques{
+  background: ghostwhite; width: 28%; margin: 10px;
+}
+
+.dcomand{
+  align-items: center;
+}
+
+.avatarPic{
+  width: 50px; border-radius: 25px;
+}
+
+.pageHeader{
+  margin: 7px 5px 5px 5px;
+}
+
+/*CSS GENEREAL*/
+
+/*
+a:link, a:visited, a:active {
+    text-decoration:none;
+}*/
+
+
+a, a:hover{
+    text-decoration:none;
+  }
+
+.badge-dot {
+    border-radius: 100%;
+    padding: 4px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+  .tabla1{
+    background: #fbfafa;
+  }
+  .tabla1_head{
+    background: #CCA6E8;
+  }
+  .bakcolor{
+    background: linear-gradient(to right, white , #CCA6E8);
+  }
+
+  .titulosGraficas{
+    text-align: center;
+    margin: 7px;
+    color: gray;
+  }
+
+  /*BOLD DEL ACTIVE*/
+  .navbar-light .navbar-nav .nav-link.active{
+    font-weight: bold;
+  }
+
+  /*FUENTES INACTIVAS*/
+  .navbar-light .navbar-nav .nav-link{
+    color: #9125eacc;
+  }
+
+  /*ANCHO GIFT LOGO*/
+  .title{
+    width: 308px;
+  }
+
+#nuevoUsu{
+  width: 790px;
+  margin-top: 14px; 
+  display: none;
+  margin-bottom: 41px;
+  background: #c3b3ff;
+  padding: 15px 0px;
+  border-radius: 7px;
+}  
+
+/*FORMS DE FOTOS*/
+
+.formFotos{
+  display: flex;
+  flex-direction: column;
+  
+ /* width: 250px;*/
+}
+/*btn_subir_fotos*/
+.btn_fotoProd{
+  background: var(--darkm);
+  border: none;
+  color: snow;
+  padding: 7px;
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 22px;
+  /*align-self: center;*/
+}
+.btn_falso{
+  background: var(--darkm);
+  border: none;
+  color: snow;
+  padding: 7px;
+  width: 30%;
+  border-radius: 10px;
+  margin-top: 20px;
+  opacity: 0.3;
+  text-align: center;
+  /*align-self: center;*/
+}
+
+.coluFoto{
+  /*width: 350px;*/
+  background: #f6efff;
+}
+
+.coluSpec{
+  text-transform: capitalize; 
+  width: 45%;
+  background: #efe0fb;
+}
+
+.formSpecs{
+  display: flex;
+  flex-direction: column;
+  width: 500px; 
+  padding: 15px;
+}
+
+.seekFoto2{
+  width: 145px;
+  background: var(--darkm);
+  color: snow;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+
+/*FORMS DE SUBIR FOTOS*/
+
+.agregarFotos{
+  display: flex;
+  flex-direction: column;
+  background: #f6efff;
+  width: 250px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.seekFoto{
+  width: 145px;
+  background: var(--darkm);
+  color: snow;
+  padding: 6px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn_up{
+  background: var(--darkm);
+  border: none;
+  color: snow;
+  padding: 7px;
+  width: 100px;
+  border-radius: 10px;
+  margin-top: 46px;
+}
+
+.btn_insert{
+  background: var(--darkm);
+  border: none;
+  color: snow;
+  padding: 7px;
+  width: 175px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+
+.formSpecs1{
+  display: flex;
+  flex-direction: column;
+  background: #efe0fb;
+  width: 500px; 
+  padding: 15px;
+}
+
+footer{
+  position: relative;
+  height: 250px;
+  background: #6E5384;
+  text-align: center;
+}
+
+
+/*UI productos*/
+.editar{ color: darkmagenta; }
+.editar:hover{ color: darkorchid; }
+
+
+.borrar{ color: tomato; }
+.borrar:hover{ color: deeppink; }
+
+.title_carta{
+  height: 15%; padding: 2px; color: darkorchid;
+}
+
+.nProd{
+  color: var(--darkm); font-weight: bold;
+}
+
+.imgConteCarta{
+  height: 85%; display: flex; align-items: center; justify-content: center;
+}
+
+.car:hover{
+  background: lightgray;
+
+}
+
+.imgCarta:hover{
+  border: solid 2px goldenrod;
+}
+
+.imgCarta{
+  width: 150px;
+}
+
+
+
+#sortable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 900px;
+  position: relative;
+  left: 53%;
+  transform: translateX(-50%);
+}
+
+#sortable li { 
+  margin: 3px 3px 3px 0; 
+  padding: 1px; float: left; 
+  width: 200px; 
+  height: 250px; 
+  font-size: 1.2em; 
+  text-align: center; 
+}
+
+
+.ui-state-default{
+  border: 1px solid #c5c5c5;
+  background: #f6f6f6;
+  font-weight: normal;
+  color: #454545;
+}
+.fondillo{
+  background-image:url(../rsc/img/fondoflores.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.body3{
+   /* background-image:url(../rsc/img/fondoflores.jpg);*/
+    background-attachment:fixed;
+    background-size: cover;
+    min-height: 100%;
+    margin-bottom: -50px; 
+}
+.footer2,
+.push{
+  height: 250px;
+}
+
+
+/*TV*/
+@media screen and (min-width: 1367px){
+
+
+
+}  
+
+/*DESKTOP*/
+@media screen and (max-width: 1240px){
+    
+
+
+}
+
+@media screen and (max-width: 1024px){
+
+
+
+}
+
+@media screen and (max-width: 990px){
+
+
+  .avatar{
+  position: relative;
+  right: 0;
+  }
+    
+  .dcomand{
+    align-items: flex-start;
+  }
+
+  .datos1{
+  flex-direction: column; align-items: center; justify-content: space-around; background: ghostwhite; margin-top: 15px;
+  }
+
+  .bloques{
+  background: ghostwhite; width: 80%; margin: 10px;
+  }
+
+/*INPUTS nuevo Usuario*/
+#nuevoUsu{
+  width: 80%;
+}
+
+
+/*ORDEN PRODUCTOS CARTAS*/
+
+#sortable { 
+  margin: 0; 
+  padding: 0; 
+  width: 600px;
+}
+
+#sortable li { 
+  margin: 3px 3px 3px 0; 
+  padding: 1px; float: left; 
+  width: 130px; 
+  height: 200px; 
+  font-size: 1em; 
+  text-align: center; 
+}
+
+.imgCarta{
+  width: 100px;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 768px){
+
+#nuevoUsu{
+  width: 100%;
+}
+
+
+
+}
+
+@media screen and (max-width: 576px){
+
+
+
+#sortable { 
+  margin: 0; 
+  padding: 0; 
+  width: 520px;
+  left: 57%;
+}
+
+#sortable li { 
+  margin: 3px 3px 3px 0; 
+  padding: 1px; float: left; 
+  width: 105px; 
+  height: 200px; 
+  font-size: 1em; 
+  text-align: center; 
+}
+
+.imgCarta{
+  width: 86px;
+}
+
+
+}
+
+@media screen and (max-width: 476px){
+
+#sortable { 
+  margin: 0; 
+  padding: 0; 
+  width: 420px;
+  left: 60%;
+}
+
+#sortable li { 
+  margin: 3px 3px 3px 0; 
+  padding: 1px; float: left; 
+  width: 82px; 
+  height: 177px; 
+  font-size: 0.8em; 
+  text-align: center; 
+}
+
+.imgCarta{
+  width: 72px;
+}
+
+.title_carta{
+  height: 25%; 
+  padding: 2px; 
+  color: darkorchid;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+}
+
+
+@media screen and (max-width: 375px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

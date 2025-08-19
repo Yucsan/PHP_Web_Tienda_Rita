@@ -9,19 +9,19 @@ Un proyecto real de tienda online que sirve como galería de exposición y venta
 ### 🏠 **Página Principal**
 <div align="center">
   <img src="assets/imagenes/home.jpg" alt="Página Principal - Hero Section" width="800"/>
-  <img src="assets/imagenes/3s.png" alt="Página Principal - Productos Destacados" width="400"/>
+  <img src="assets/imagenes/3.png" alt="Página Principal - Productos Destacados" width="800"/>
 </div>
 
 ### 🛒 **Sistema de Compras**
 <div align="center">
-  <img src="assets/imagenes/17.png" alt="Catálogo de Productos" width="400"/>
+  <img src="assets/imagenes/17.png" alt="Catálogo de Productos" width="800"/>
   <img src="assets/imagenes/7.png" alt="Carrito de Compras" width="400"/>
 </div>
 
 ### 👤 **Sistema de Usuario**
 <div align="center">
-  <img src="assets/imagenes/6.png" alt="Formulario de Login" width="400"/>
-  <img src="assets/imagenes/12.png" alt="Perfil de Usuario" width="400"/>
+  <img src="assets/imagenes/6.png" alt="Formulario de Login" width="800"/>
+  <img src="assets/imagenes/12.png" alt="Perfil de Usuario" width="800"/>
 </div>
 
 ### 🎨 **Vista de Producto**
@@ -35,7 +35,7 @@ Un proyecto real de tienda online que sirve como galería de exposición y venta
   <img src="assets/imagenes/19.png" alt="Gestión de Productos" width="800"/>
 </div>
 <div align="center">
-  <img src="assets/imagenes/20.png" alt="Gestión de Usuarios" width="400"/>
+  <img src="assets/imagenes/20.png" alt="Gestión de Usuarios" width="800"/>
 </div>
 
 ### 📱 **Diseño Responsive**

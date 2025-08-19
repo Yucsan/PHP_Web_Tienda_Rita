@@ -114,7 +114,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Perfil editable**: Cambio de datos, foto, contraseña y dirección
 
 ### **Carrito de Compras**
-<img align="right" src="assets/imagenes/shopping-cart.png" alt="Carrito de Compras" width="300"/>
+<img align="right" src="assets/imagenes/10.png" alt="Carrito de Compras" width="300"/>
 
 - **Gestión con JavaScript**: Añadir/eliminar productos dinámicamente
 - **Persistencia**: SessionStorage para navegación entre páginas
@@ -122,14 +122,14 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Pedidos guardados**: Sistema de guardado automático
 
 ### **Sistema de Likes**
-<img align="right" src="assets/imagenes/likes-detail.png" alt="Sistema de Likes" width="300"/>
+<img align="right" src="assets/imagenes/likes.jpg" alt="Sistema de Likes" width="300"/>
 
 - **Funcionalidad real**: Conectado a base de datos vía fetch API
 - **Filtrado inteligente**: Usando `array_key_exists`
 - **Solo usuarios logueados**: LocalStorage para usuarios no registrados
 
 ### **Proceso de Compra**
-<img align="right" src="assets/imagenes/checkout-process.png" alt="Proceso de Compra" width="300"/>
+<img align="right" src="assets/imagenes/13.png" alt="Proceso de Compra" width="300"/>
 
 - **Dirección dinámica**: Solo solicita dirección al momento de compra
 - **Métodos de pago**: Tarjeta (simulado) y contra entrega
@@ -137,7 +137,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Estados de pedido**: Guardado, en ruta, pagado
 
 ### **Panel de Administración**
-<img align="right" src="assets/imagenes/admin-panel.png" alt="Panel Admin" width="300"/>
+<img align="right" src="assets/imagenes/18.png" alt="Panel Admin" width="300"/>
 
 - **Dashboard estadístico**: Gráficos de productos más gustados
 - **Gestión completa de usuarios**: Activar/desactivar cuentas
@@ -153,6 +153,8 @@ El proyecto incluye múltiples tablas para:
 - **Likes**: Sistema de favoritos por usuario
 - **Mensajes**: Chat/consultas sobre productos
 - **Contenido**: Biografía y textos dinámicos
+
+<img align="right" src="assets/imagenes/basedatos2.jpg" alt="Panel Admin" width="300"/>
 
 ## 🎯 Características Destacadas
 

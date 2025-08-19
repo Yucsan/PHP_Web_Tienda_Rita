@@ -8,7 +8,7 @@ Un proyecto real de tienda online que sirve como galería de exposición y venta
 
 ### 🏠 **Página Principal**
 <div align="center">
-  <img src="assets/imagenes/home.png" alt="Página Principal - Hero Section" width="400"/>
+  <img src="assets/imagenes/home.jpg" alt="Página Principal - Hero Section" width="400"/>
   <img src="assets/imagenes/home-productos.png" alt="Página Principal - Productos Destacados" width="400"/>
 </div>
 

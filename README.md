@@ -190,17 +190,29 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
   </tr>
 </table>
 
+
 ## 🗄️ Estructura de Base de Datos
 
-El proyecto incluye múltiples tablas para:
-- **Usuarios**: Datos personales, direcciones, estados
-- **Productos**: Información completa, orden personalizable
-- **Pedidos**: Historial completo de compras
-- **Likes**: Sistema de favoritos por usuario
-- **Mensajes**: Chat/consultas sobre productos
-- **Contenido**: Biografía y textos dinámicos
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <p>El proyecto incluye múltiples tablas para:</p>
+      <ul>
+        <li><strong>Usuarios</strong>: Datos personales, direcciones, estados</li>
+        <li><strong>Productos</strong>: Información completa, orden personalizable</li>
+        <li><strong>Pedidos</strong>: Historial completo de compras</li>
+        <li><strong>Likes</strong>: Sistema de favoritos por usuario</li>
+        <li><strong>Mensajes</strong>: Chat/consultas sobre productos</li>
+        <li><strong>Contenido</strong>: Biografía y textos dinámicos</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/basedatos2.jpg" alt="Estructura de Base de Datos" width="350"/>
+    </td>
+  </tr>
+</table>
 
-<img align="right" src="assets/imagenes/basedatos2.jpg" alt="Panel Admin" width="300"/>
+
 
 ## 🎯 Características Destacadas
 

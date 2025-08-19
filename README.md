@@ -8,43 +8,39 @@ Un proyecto real de tienda online que sirve como galería de exposición y venta
 
 ### 🏠 **Página Principal**
 <div align="center">
-  <img src="assets/imagenes/1.png" alt="Página Principal - Hero Section" width="400"/>
-  <img src="assets/imagenes/home-productos.png" alt="Página Principal - Productos Destacados" width="400"/>
+  <img src="assets/imagenes/home.jpg" alt="Página Principal - Hero Section" width="800"/>
+  <img src="assets/imagenes/3.png" alt="Página Principal - Productos Destacados" width="800"/>
 </div>
 
 ### 🛒 **Sistema de Compras**
 <div align="center">
-  <img src="assets/imagenes/productos-grid.png" alt="Catálogo de Productos" width="400"/>
-  <img src="assets/imagenes/carrito-compras.png" alt="Carrito de Compras" width="400"/>
+  <img src="assets/imagenes/17.png" alt="Catálogo de Productos" width="800"/>
+  <img src="assets/imagenes/7.png" alt="Carrito de Compras" width="400"/>
 </div>
 
 ### 👤 **Sistema de Usuario**
 <div align="center">
-  <img src="assets/imagenes/login-form.png" alt="Formulario de Login" width="400"/>
-  <img src="assets/imagenes/user-profile.png" alt="Perfil de Usuario" width="400"/>
+  <img src="assets/imagenes/6.png" alt="Formulario de Login" width="800"/>
+  <img src="assets/imagenes/12.png" alt="Perfil de Usuario" width="800"/>
 </div>
 
 ### 🎨 **Vista de Producto**
 <div align="center">
-  <img src="assets/imagenes/producto-detalle.png" alt="Detalle de Producto" width="400"/>
-  <img src="assets/imagenes/likes-system.png" alt="Sistema de Likes" width="400"/>
+  <img src="assets/imagenes/17.png" alt="Detalle de Producto" width="800"/>
 </div>
 
 ### 🛡️ **Panel de Administración**
 <div align="center">
-  <img src="assets/imagenes/admin-dashboard.png" alt="Dashboard Principal" width="400"/>
-  <img src="assets/imagenes/admin-productos.png" alt="Gestión de Productos" width="400"/>
+  <img src="assets/imagenes/18.png" alt="Dashboard Principal" width="800"/>
+  <img src="assets/imagenes/19.png" alt="Gestión de Productos" width="800"/>
 </div>
 <div align="center">
-  <img src="assets/imagenes/admin-usuarios.png" alt="Gestión de Usuarios" width="400"/>
-  <img src="assets/imagenes/admin-pedidos.png" alt="Gestión de Pedidos" width="400"/>
+  <img src="assets/imagenes/20.png" alt="Gestión de Usuarios" width="800"/>
 </div>
 
 ### 📱 **Diseño Responsive**
 <div align="center">
-  <img src="assets/imagenes/mobile-home.png" alt="Vista Mobile - Home" width="200"/>
-  <img src="assets/imagenes/mobile-productos.png" alt="Vista Mobile - Productos" width="200"/>
-  <img src="assets/imagenes/mobile-carrito.png" alt="Vista Mobile - Carrito" width="200"/>
+  <img src="assets/imagenes/1.png" alt="Vista Mobile - Home" width="200"/>
 </div>
 
 ---

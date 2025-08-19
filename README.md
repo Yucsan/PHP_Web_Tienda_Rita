@@ -8,43 +8,43 @@ Un proyecto real de tienda online que sirve como galería de exposición y venta
 
 ### 🏠 **Página Principal**
 <div align="center">
-  <img src="assets/home-hero.png" alt="Página Principal - Hero Section" width="400"/>
-  <img src="assets/home-productos.png" alt="Página Principal - Productos Destacados" width="400"/>
+  <img src="assets/imagenes/home-hero.png" alt="Página Principal - Hero Section" width="400"/>
+  <img src="assets/imagenes/home-productos.png" alt="Página Principal - Productos Destacados" width="400"/>
 </div>
 
 ### 🛒 **Sistema de Compras**
 <div align="center">
-  <img src="assets/productos-grid.png" alt="Catálogo de Productos" width="400"/>
-  <img src="assets/carrito-compras.png" alt="Carrito de Compras" width="400"/>
+  <img src="assets/imagenes/productos-grid.png" alt="Catálogo de Productos" width="400"/>
+  <img src="assets/imagenes/carrito-compras.png" alt="Carrito de Compras" width="400"/>
 </div>
 
 ### 👤 **Sistema de Usuario**
 <div align="center">
-  <img src="assets/login-form.png" alt="Formulario de Login" width="400"/>
-  <img src="assets/user-profile.png" alt="Perfil de Usuario" width="400"/>
+  <img src="assets/imagenes/login-form.png" alt="Formulario de Login" width="400"/>
+  <img src="assets/imagenes/user-profile.png" alt="Perfil de Usuario" width="400"/>
 </div>
 
 ### 🎨 **Vista de Producto**
 <div align="center">
-  <img src="assets/producto-detalle.png" alt="Detalle de Producto" width="400"/>
-  <img src="assets/likes-system.png" alt="Sistema de Likes" width="400"/>
+  <img src="assets/imagenes/producto-detalle.png" alt="Detalle de Producto" width="400"/>
+  <img src="assets/imagenes/likes-system.png" alt="Sistema de Likes" width="400"/>
 </div>
 
 ### 🛡️ **Panel de Administración**
 <div align="center">
-  <img src="assets/admin-dashboard.png" alt="Dashboard Principal" width="400"/>
-  <img src="assets/admin-productos.png" alt="Gestión de Productos" width="400"/>
+  <img src="assets/imagenes/admin-dashboard.png" alt="Dashboard Principal" width="400"/>
+  <img src="assets/imagenes/admin-productos.png" alt="Gestión de Productos" width="400"/>
 </div>
 <div align="center">
-  <img src="assets/admin-usuarios.png" alt="Gestión de Usuarios" width="400"/>
-  <img src="assets/admin-pedidos.png" alt="Gestión de Pedidos" width="400"/>
+  <img src="assets/imagenes/admin-usuarios.png" alt="Gestión de Usuarios" width="400"/>
+  <img src="assets/imagenes/admin-pedidos.png" alt="Gestión de Pedidos" width="400"/>
 </div>
 
 ### 📱 **Diseño Responsive**
 <div align="center">
-  <img src="assets/mobile-home.png" alt="Vista Mobile - Home" width="200"/>
-  <img src="assets/mobile-productos.png" alt="Vista Mobile - Productos" width="200"/>
-  <img src="assets/mobile-carrito.png" alt="Vista Mobile - Carrito" width="200"/>
+  <img src="assets/imagenes/mobile-home.png" alt="Vista Mobile - Home" width="200"/>
+  <img src="assets/imagenes/mobile-productos.png" alt="Vista Mobile - Productos" width="200"/>
+  <img src="assets/imagenes/mobile-carrito.png" alt="Vista Mobile - Carrito" width="200"/>
 </div>
 
 ---
@@ -110,7 +110,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 ## 📱 Funcionalidades Detalladas
 
 ### **Sistema de Usuario**
-<img align="right" src="assets/user-system.png" alt="Sistema de Usuario" width="300"/>
+<img align="right" src="assets/imagenes/user-system.png" alt="Sistema de Usuario" width="300"/>
 
 - **Registro simplificado**: Solo datos esenciales + verificación por email
 - **Login con recordar sesión**: Cookie de 2 años
@@ -118,7 +118,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Perfil editable**: Cambio de datos, foto, contraseña y dirección
 
 ### **Carrito de Compras**
-<img align="right" src="assets/shopping-cart.png" alt="Carrito de Compras" width="300"/>
+<img align="right" src="assets/imagenes/shopping-cart.png" alt="Carrito de Compras" width="300"/>
 
 - **Gestión con JavaScript**: Añadir/eliminar productos dinámicamente
 - **Persistencia**: SessionStorage para navegación entre páginas
@@ -126,14 +126,14 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Pedidos guardados**: Sistema de guardado automático
 
 ### **Sistema de Likes**
-<img align="right" src="assets/likes-detail.png" alt="Sistema de Likes" width="300"/>
+<img align="right" src="assets/imagenes/likes-detail.png" alt="Sistema de Likes" width="300"/>
 
 - **Funcionalidad real**: Conectado a base de datos vía fetch API
 - **Filtrado inteligente**: Usando `array_key_exists`
 - **Solo usuarios logueados**: LocalStorage para usuarios no registrados
 
 ### **Proceso de Compra**
-<img align="right" src="assets/checkout-process.png" alt="Proceso de Compra" width="300"/>
+<img align="right" src="assets/imagenes/checkout-process.png" alt="Proceso de Compra" width="300"/>
 
 - **Dirección dinámica**: Solo solicita dirección al momento de compra
 - **Métodos de pago**: Tarjeta (simulado) y contra entrega
@@ -141,7 +141,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 - **Estados de pedido**: Guardado, en ruta, pagado
 
 ### **Panel de Administración**
-<img align="right" src="assets/admin-panel.png" alt="Panel Admin" width="300"/>
+<img align="right" src="assets/imagenes/admin-panel.png" alt="Panel Admin" width="300"/>
 
 - **Dashboard estadístico**: Gráficos de productos más gustados
 - **Gestión completa de usuarios**: Activar/desactivar cuentas
@@ -163,10 +163,10 @@ El proyecto incluye múltiples tablas para:
 ### **🎨 Vista Previa Rápida**
 | Característica | Imagen | Descripción |
 |---------------|---------|-------------|
-| **Slider Dinámico** | ![Slider](assets/slider-dinamico.png) | Slider principal con contenido dinámico desde BD |
-| **Sistema de Likes** | ![Likes](assets/sistema-likes.png) | Favoritos en tiempo real con fetch API |
-| **Carrito Inteligente** | ![Carrito](assets/carrito-inteligente.png) | Gestión completa con SessionStorage |
-| **Drag & Drop Admin** | ![DragDrop](assets/admin-drag-drop.png) | Ordenamiento visual de productos |
+| **Slider Dinámico** | ![Slider](assets/imagenes/slider-dinamico.png) | Slider principal con contenido dinámico desde BD |
+| **Sistema de Likes** | ![Likes](assets/imagenes/sistema-likes.png) | Favoritos en tiempo real con fetch API |
+| **Carrito Inteligente** | ![Carrito](assets/imagenes/carrito-inteligente.png) | Gestión completa con SessionStorage |
+| **Drag & Drop Admin** | ![DragDrop](assets/imagenes/admin-drag-drop.png) | Ordenamiento visual de productos |
 
 ### **Paginación Dinámica**
 - Cálculo automático de páginas (8 productos por página)
@@ -203,8 +203,8 @@ El proyecto incluye múltiples tablas para:
 
 ### **Capturas de Configuración**
 <div align="center">
-  <img src="assets/config-database.png" alt="Configuración BD" width="400"/>
-  <img src="assets/config-mail.png" alt="Configuración Email" width="400"/>
+  <img src="assets/imagenes/config-database.png" alt="Configuración BD" width="400"/>
+  <img src="assets/imagenes/config-mail.png" alt="Configuración Email" width="400"/>
 </div>
 
 ### **Notas de Desarrollo**

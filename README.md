@@ -219,10 +219,10 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 ### **🎨 Vista Previa Rápida**
 | Característica | Imagen | Descripción |
 |---------------|---------|-------------|
-| **Slider Dinámico** | ![Slider](assets/imagenes/slider-dinamico.png) | Slider principal con contenido dinámico desde BD |
-| **Sistema de Likes** | ![Likes](assets/imagenes/sistema-likes.png) | Favoritos en tiempo real con fetch API |
-| **Carrito Inteligente** | ![Carrito](assets/imagenes/carrito-inteligente.png) | Gestión completa con SessionStorage |
-| **Drag & Drop Admin** | ![DragDrop](assets/imagenes/admin-drag-drop.png) | Ordenamiento visual de productos |
+| **Slider Dinámico** | ![Slider](assets/imagenes/home.jpg) | Slider principal con contenido dinámico desde BD |
+| **Sistema de Likes** | ![Likes](assets/imagenes/likes.jpg) | Favoritos en tiempo real con fetch API |
+| **Carrito Inteligente** | ![Carrito](assets/imagenes/7.png) | Gestión completa con SessionStorage |
+| **Drag & Drop Admin** | ![DragDrop](assets/imagenes/dragdrop.jpg) | Ordenamiento visual de productos |
 
 ### **Paginación Dinámica**
 - Cálculo automático de páginas (8 productos por página)

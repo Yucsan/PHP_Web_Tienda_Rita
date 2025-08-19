@@ -105,44 +105,90 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 
 ## 📱 Funcionalidades Detalladas
 
-### **Sistema de Usuario**
-<img align="right" src="assets/imagenes/registro.jpg" alt="Sistema de Usuario" width="300"/>
-
-- **Registro simplificado**: Solo datos esenciales + verificación por email
-- **Login con recordar sesión**: Cookie de 2 años
-- **Recuperación de contraseña**: Vía email con enlaces únicos
-- **Perfil editable**: Cambio de datos, foto, contraseña y dirección
-
-### **Carrito de Compras**
-<img align="right" src="assets/imagenes/10.png" alt="Carrito de Compras" width="300"/>
-
-- **Gestión con JavaScript**: Añadir/eliminar productos dinámicamente
-- **Persistencia**: SessionStorage para navegación entre páginas
-- **Validaciones**: No permite cantidades negativas
-- **Pedidos guardados**: Sistema de guardado automático
-
-### **Sistema de Likes**
-<img align="right" src="assets/imagenes/likes.jpg" alt="Sistema de Likes" width="300"/>
-
-- **Funcionalidad real**: Conectado a base de datos vía fetch API
-- **Filtrado inteligente**: Usando `array_key_exists`
-- **Solo usuarios logueados**: LocalStorage para usuarios no registrados
-
-### **Proceso de Compra**
-<img align="right" src="assets/imagenes/13.png" alt="Proceso de Compra" width="300"/>
-
-- **Dirección dinámica**: Solo solicita dirección al momento de compra
-- **Métodos de pago**: Tarjeta (simulado) y contra entrega
-- **Confirmaciones**: Email automático al finalizar pedido
-- **Estados de pedido**: Guardado, en ruta, pagado
-
-### **Panel de Administración**
-<img align="right" src="assets/imagenes/18.png" alt="Panel Admin" width="300"/>
-
-- **Dashboard estadístico**: Gráficos de productos más gustados
-- **Gestión completa de usuarios**: Activar/desactivar cuentas
-- **Ordenamiento visual**: Drag & drop para orden de productos
-- **Gestión de mensajes**: Responder consultas de usuarios
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>🔐 Sistema de Usuario</h3>
+      <ul>
+        <li><strong>Registro simplificado</strong>: Solo datos esenciales + verificación por email</li>
+        <li><strong>Login con recordar sesión</strong>: Cookie de 2 años</li>
+        <li><strong>Recuperación de contraseña</strong>: Vía email con enlaces únicos</li>
+        <li><strong>Perfil editable</strong>: Cambio de datos, foto, contraseña y dirección</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/registro.jpg" alt="Sistema de Usuario" width="350"/>
+    </td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>🛒 Carrito de Compras</h3>
+      <ul>
+        <li><strong>Gestión con JavaScript</strong>: Añadir/eliminar productos dinámicamente</li>
+        <li><strong>Persistencia</strong>: SessionStorage para navegación entre páginas</li>
+        <li><strong>Validaciones</strong>: No permite cantidades negativas</li>
+        <li><strong>Pedidos guardados</strong>: Sistema de guardado automático</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/13.png" alt="Carrito de Compras" width="350"/>
+    </td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>❤️ Sistema de Likes</h3>
+      <ul>
+        <li><strong>Funcionalidad real</strong>: Conectado a base de datos vía fetch API</li>
+        <li><strong>Filtrado inteligente</strong>: Usando <code>array_key_exists</code></li>
+        <li><strong>Solo usuarios logueados</strong>: LocalStorage para usuarios no registrados</li>
+        <li><strong>Tiempo real</strong>: Actualización inmediata sin recargar página</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/likes.jpg" alt="Sistema de Likes" width="350"/>
+    </td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>💳 Proceso de Compra</h3>
+      <ul>
+        <li><strong>Dirección dinámica</strong>: Solo solicita dirección al momento de compra</li>
+        <li><strong>Métodos de pago</strong>: Tarjeta (simulado) y contra entrega</li>
+        <li><strong>Confirmaciones</strong>: Email automático al finalizar pedido</li>
+        <li><strong>Estados de pedido</strong>: Guardado, en ruta, pagado</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/14.png" alt="Proceso de Compra" width="350"/>
+    </td>
+  </tr>
+</table>
+<br>
+<table>
+  <tr>
+    <td width="60%" valign="top">
+      <h3>🛡️ Panel de Administración</h3>
+      <ul>
+        <li><strong>Dashboard estadístico</strong>: Gráficos de productos más gustados</li>
+        <li><strong>Gestión completa de usuarios</strong>: Activar/desactivar cuentas</li>
+        <li><strong>Ordenamiento visual</strong>: Drag & drop para orden de productos</li>
+        <li><strong>Gestión de mensajes</strong>: Responder consultas de usuarios</li>
+      </ul>
+    </td>
+    <td width="40%" valign="top" align="center">
+      <img src="assets/imagenes/18.png" alt="Panel de Administración" width="350"/>
+    </td>
+  </tr>
+</table>
 
 ## 🗄️ Estructura de Base de Datos
 

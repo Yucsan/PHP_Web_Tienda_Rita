@@ -106,7 +106,7 @@ Este proyecto consiste en un e-commerce completo para la artista peruana Rita Ca
 ## 📱 Funcionalidades Detalladas
 
 ### **Sistema de Usuario**
-<img align="right" src="assets/imagenes/user-system.png" alt="Sistema de Usuario" width="300"/>
+<img align="right" src="assets/imagenes/registro.jpg" alt="Sistema de Usuario" width="300"/>
 
 - **Registro simplificado**: Solo datos esenciales + verificación por email
 - **Login con recordar sesión**: Cookie de 2 años
